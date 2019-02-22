@@ -1,0 +1,13 @@
+name: KubeflowEnv
+dependencies:
+  # The python interpreter version.
+- python=3.6.2
+- nb_conda_kernels==2.1.0
+- pip:
+  - papermill==0.14.1
+  - numba==0.42.0
+  - python-dotenv==0.10.1
+  - Pillow==5.4.1
+  - azure-cli==2.0.50
+  - tensorflow-gpu==1.12.0
+  - keras==2.2.4
